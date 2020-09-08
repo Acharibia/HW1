@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="contact-form.css" />
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <div class="contact-form">
+      <form id="contact-form" method="Submit" action="">
+        <label for="name" class="my-labels"> First Name </label><br />
+        <input
+          type="text"
+          name="First Name"
+          class="form-control"
+          placeholder="First Name"
+          required
+        /><br />
+        <label for="name" class="my-labels"> Last Name </label><br />
+        <input
+          type="Last Name"
+          name="name"
+          class="form-control"
+          placeholder="Last Name"
+          required
+        /><br />
+        <label for="name" class="my-labels"> Country </label><br />
+        <select name="country" class="form-control">
+          <option value="Austrias">Austria</option>
+          <option value="Austrias">Belgium</option>
+          <option value="Austrias">Canada</option>
+          <option value="Austrias">Denmark</option>
+          <option value="Austrias">Ethiopia</option>
+          <option value="Austrias">Finland</option>
+          <option value="Austrias">Ghana</option>
+          <option value="Austrias">Hungary</option>
+        </select>
+
+        <label for="name" class="my-labels"> Subject </label><br />
+        <textarea
+          name="message"
+          class="form-control-textarea"
+          placeholder="write something..."
+          rows="4"
+          required
+        >
+        </textarea
+        ><br />
+        <input type="submit" class="form-control submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>

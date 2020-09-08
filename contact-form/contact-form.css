@@ -1,0 +1,43 @@
+body {
+    margin: 10;
+    padding: 10;
+    text-align: left;
+    background-position: center;
+    font-family: sans-serif;
+}
+.contact-form {
+    width: 900px;
+}
+
+
+.form-control {
+    width: 890px;
+    background: white;
+    font-size: 18px;
+    margin-bottom: 16px;
+
+    height: 35px;
+
+}
+form .submit {
+    background-color: green;
+
+    width: 100px;
+    height: 40px;
+
+}
+
+.form-control-textarea {
+    height: 100px !important;
+    width: 890;
+    margin-bottom: 10px;
+}
+form .submit:hover {
+    background-color: rgb(212, 209, 209);
+    cursor: pointer;
+}
+div {
+    padding: 18;
+    background-color: rgb(241, 246, 253);
+    width: 600px;
+}
